@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        background-color: teal;
+        overflow: hidden;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    ul {
+        list-style: none;
+        float: right;
+        padding-right: 120px;
+    }
+
+    li {
+        float: left;
+        padding-right: 15px;
+    }
+
+    a:hover:not(.active) {
+        background-color: antiquewhite;
+        
+
+    }
+
+    .active {
+        background-color: goldenrod;
+        
+    }
+
+
+    b {
+        color: white;
+        font-size: 30px;
+    }
+
+    .logo {
+        float: left;
+        padding: 15px 0;
+        padding-left: 30px;
+    }
+</style>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <b>facebook</b>
+        </div>
+        <ul>
+            <li><a href="#" target="_blank" rel="noopener noreferrer" class="active">Home</a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer">Services</a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer">About us</a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer">Contact us</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
