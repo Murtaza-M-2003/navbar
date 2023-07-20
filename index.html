@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        background-color: teal;
+        overflow: hidden;
+        position: fixed;
+        width: 100%;
+    }
+
+    a {
+        text-decoration: none;
+
+    }
+
+    ul {
+        list-style: none;
+        float: right;
+        padding-right: 120px;
+    }
+
+    li {
+        float: left;
+        color: white;
+        padding: 15px;
+    }
+
+    li:hover:not(.active) {
+        background-color: blue;
+
+
+    }
+
+    .active {
+        background-color: goldenrod;
+
+    }
+
+
+    b {
+        color: white;
+        font-size: 30px;
+    }
+
+    .logo {
+        float: left;
+        padding-top: 7px;
+        padding-left: 30px;
+    }
+
+    .cont {
+        padding-top: 48px;
+    }
+
+    .C1 {
+        width: 40%;
+        height: 110vh;
+        background-color: brown;
+        color: white;
+        font-size: 30px;
+        float: left;
+
+    }
+
+    .C2 {
+        width: 40%;
+        height: 110vh;
+        background-color: goldenrod;
+        color: white;
+        font-size: 30px;
+        float: left;
+    }
+</style>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <b>facebook</b>
+        </div>
+        <ul>
+            <li><a href="#" target="_blank" rel="noopener noreferrer" class="active"></a>Home</li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer"></a>Services</li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer"></a>About us</li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer"></a>Contact us</li>
+        </ul>
+    </nav>
+    <div class="cont">
+        <div class="C1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cum eos culpa delectus aliquid illum odio
+            eveniet!
+            Quod excepturi corporis ducimus, animi id fuga quas ullam nisi numquam voluptatum ex quia, exercitationem
+            amet,
+            ipsa deleniti illum. Ut sunt quaerat ducimus minus? Molestiae cum nisi inventore ipsum quisquam asperiores,
+            ut
+            ex illo similique nam fuga magnam architecto fugiat nobis possimus. Ipsa?
+        </div>
+        <div class="C2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cum eos culpa delectus aliquid illum odio
+            eveniet!
+            Quod excepturi corporis ducimus, animi id fuga quas ullam nisi numquam voluptatum ex quia, exercitationem
+            amet,
+            ipsa deleniti illum. Ut sunt quaerat ducimus minus? Molestiae cum nisi inventore ipsum quisquam asperiores,
+            ut
+            ex illo similique nam fuga magnam architecto fugiat nobis possimus. Ipsa?
+        </div>
+    </div>
+</body>
+
+</html>
